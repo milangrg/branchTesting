@@ -2,7 +2,7 @@ package com.example.myamplifyapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+// hello world
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
