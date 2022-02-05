@@ -1,0 +1,65 @@
+# this is an auto generated file. This will be overwritten
+query GetSubmitted($id: ID!) {
+  getSubmitted(id: $id) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+query ListSubmitteds(
+  $filter: ModelSubmittedFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listSubmitteds(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      heartrate
+      bloodpressure
+      steps
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      owner
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncSubmitteds(
+  $filter: ModelSubmittedFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncSubmitteds(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      heartrate
+      bloodpressure
+      steps
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      owner
+    }
+    nextToken
+    startedAt
+  }
+}

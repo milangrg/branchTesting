@@ -1,0 +1,52 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateSubmitted(
+  $input: CreateSubmittedInput!
+  $condition: ModelSubmittedConditionInput
+) {
+  createSubmitted(input: $input, condition: $condition) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+mutation UpdateSubmitted(
+  $input: UpdateSubmittedInput!
+  $condition: ModelSubmittedConditionInput
+) {
+  updateSubmitted(input: $input, condition: $condition) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+mutation DeleteSubmitted(
+  $input: DeleteSubmittedInput!
+  $condition: ModelSubmittedConditionInput
+) {
+  deleteSubmitted(input: $input, condition: $condition) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}

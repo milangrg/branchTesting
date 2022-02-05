@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAmplifyApp</string>
+    <string name="waffles">Waffles</string>
+    <string name="pancakes">Pancakes</string>
+    <string name="lastestPost">TextView</string>
+    <string name="latestPost">latestPost</string>
+</resources>

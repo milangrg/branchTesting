@@ -1,0 +1,43 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateSubmitted($owner: String) {
+  onCreateSubmitted(owner: $owner) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+subscription OnUpdateSubmitted($owner: String) {
+  onUpdateSubmitted(owner: $owner) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+subscription OnDeleteSubmitted($owner: String) {
+  onDeleteSubmitted(owner: $owner) {
+    id
+    heartrate
+    bloodpressure
+    steps
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
