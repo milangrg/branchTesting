@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "BlogAppApi",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Alex\\AndroidStudioProjects\\MyAmplifyApp\\amplify\\backend\\api\\BlogAppApi\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authmyamplifyappa0d464a2"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": []
+  }
+}
