@@ -47,6 +47,7 @@ class MyAmplifyApp : AppCompatActivity(){
         submitButton.setOnClickListener {
             submitPost()
         }
+        123
         val signInButton: Button = findViewById(R.id.signin_button)
         signInButton.setOnClickListener {
             signIn()
